@@ -715,3 +715,71 @@
 [2025-09-02T02:01:37.240+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:01:37.240+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-09-02T02:01:37.291+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:01:37.290+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
 [2025-09-02T02:01:37.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.130 seconds
+[2025-09-02T02:02:07.444+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:07.446+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:02:07.447+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:07.447+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:07.461+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:07.489+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:07.489+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:02:07.521+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:07.520+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:02:07.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.097 seconds
+[2025-09-02T02:02:37.662+0000] {processor.py:157} INFO - Started process (PID=254) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:37.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:02:37.665+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:37.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:37.680+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:02:37.707+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:37.707+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:02:37.752+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:02:37.752+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:02:37.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.111 seconds
+[2025-09-02T02:03:07.893+0000] {processor.py:157} INFO - Started process (PID=264) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:07.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:03:07.898+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:07.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:07.912+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:07.940+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:07.939+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:03:07.971+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:07.971+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:03:08.006+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.116 seconds
+[2025-09-02T02:03:38.146+0000] {processor.py:157} INFO - Started process (PID=274) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:38.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:03:38.148+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:38.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:38.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:03:38.188+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:38.187+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:03:38.215+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:03:38.215+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:03:38.236+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.093 seconds
+[2025-09-02T02:04:08.377+0000] {processor.py:157} INFO - Started process (PID=284) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:08.379+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:04:08.380+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:08.380+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:08.394+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:08.429+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:08.429+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:04:08.462+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:08.462+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:04:08.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.114 seconds
+[2025-09-02T02:04:38.666+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:38.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:04:38.667+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:38.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:38.683+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:04:38.711+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:38.711+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:04:38.742+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:04:38.741+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:04:38.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.098 seconds
+[2025-09-02T02:05:08.872+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:08.873+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:05:08.874+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:08.873+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:08.888+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:08.914+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:08.914+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:05:08.941+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:08.941+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:05:08.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.090 seconds
+[2025-09-02T02:05:39.778+0000] {processor.py:157} INFO - Started process (PID=169) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:39.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:05:39.800+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:39.800+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:39.812+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:05:39.834+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:39.834+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:05:39.889+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:05:39.886+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:05:39.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.169 seconds
+[2025-09-02T02:06:10.098+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:10.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:06:10.099+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:06:10.099+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:10.115+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:10.145+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:06:10.145+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-09-02T02:06:10.176+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:06:10.175+0000] {dag.py:3722} INFO - Setting next_dagrun for codespace_example to 2025-09-02T00:00:00+00:00, run_after=2025-09-03T00:00:00+00:00
+[2025-09-02T02:06:10.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/example_dag.py took 0.100 seconds
+[2025-09-02T02:06:40.324+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:40.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2025-09-02T02:06:40.325+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:06:40.325+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:40.336+0000] {processor.py:839} INFO - DAG(s) dict_keys(['codespace_example']) retrieved from /opt/airflow/dags/example_dag.py
+[2025-09-02T02:06:40.356+0000] {logging_mixin.py:154} INFO - [2025-09-02T02:06:40.355+0000] {dag.py:2941} INFO - Sync 1 DAGs
